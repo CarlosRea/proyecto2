@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1062,457" id="TFG" metadata="uml2-1.0" initialized="true" scrolledY="135" tag="10" key="32303037303533312D313020544647">
+  <children xsi:type="editmodel:ClassEditModel" name="Vuelos" location="465,45" size="175,176" id="TFG/Vuelos" runTimeClassModel="Vuelos(),Numero,aerolinea,FechaLlegada,isTimeOverLap(LTFG.Vuelos;),fechaSalida,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="FechaLlegada" id="TFG/Vuelos#FechaLlegada"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Numero" id="TFG/Vuelos#Numero"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fechaSalida" id="TFG/Vuelos#fechaSalida"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aerolinea" id="TFG/Vuelos#aerolinea"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Vuelos" id="TFG/Vuelos#Vuelos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="TFG/Vuelos#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isTimeOverLap" id="TFG/Vuelos#isTimeOverLap(LTFG.Vuelos;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="TFG/Aviones@avion+TFG/Vuelos@vuelos" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="vuelos" location="0,166" id="TFG/Aviones@avion+TFG/Vuelos@vuelos|TFG/Vuelos#vuelos" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="avion" location="125,0" id="TFG/Aviones@avion+TFG/Vuelos@vuelos|TFG/Aviones#avion" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - avion" location="243,235" size="40,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="297,235" size="7,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="TFG/Vuelos@vuelos+TFG/Puertas@puertas" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.1" label="//@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="vuelos" location="175,153" id="TFG/Vuelos@vuelos+TFG/Puertas@puertas|TFG/Vuelos#vuelos" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.0/@children.0" navigable="true" orderingKind="1">
+        <children xsi:type="editmodel:LabelEditModel" name=" - vuelos" location="647,178" size="46,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="647,205" size="5,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="puertas" location="44,0" id="TFG/Vuelos@vuelos+TFG/Puertas@puertas|TFG/Puertas#puertas" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + puertas" location="771,205" size="57,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="737,205" size="20,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Aviones" location="165,255" size="135,122" id="TFG/Aviones" runTimeClassModel="pasajeros,Aviones(),modelo,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="modelo" id="TFG/Aviones#modelo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pasajeros" id="TFG/Aviones#pasajeros"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Aviones" id="TFG/Aviones#Aviones()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="TFG/Aviones#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="Puertas" location="720,225" size="189,212" id="TFG/Puertas" runTimeClassModel="Puertas(),tiempoFuncionamiento,distanciaPuertas,terminal,tipo,posicionX,posicionY,toString(),numero">
+    <children xsi:type="editmodel:CompartmentEditModel" size="166,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="distanciaPuertas" id="TFG/Puertas#distanciaPuertas"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numero" id="TFG/Puertas#numero"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="posicionX" id="TFG/Puertas#posicionX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="posicionY" id="TFG/Puertas#posicionY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tiempoFuncionamiento" id="TFG/Puertas#tiempoFuncionamiento"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipo" id="TFG/Puertas#tipo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="terminal" id="TFG/Puertas#terminal"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Puertas" id="TFG/Puertas#Puertas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="TFG/Puertas#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Cliente" location="870,45" size="172,248" id="TFG/Cliente" runTimeClassModel="main([Ljava.lang.String;),puertas,getDomains(),Cliente(),tabuSearch(II),generateSolution([Lorg.jacop.core.IntDomain;),vuelos,aviones,fitness([I),printSolution([I),costAllDifferent([I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="vuelos" id="TFG/Cliente#vuelos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aviones" id="TFG/Cliente#aviones"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="puertas" id="TFG/Cliente#puertas"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,144">
+      <children xsi:type="editmodel:MethodEditModel" name="calcularDistancias" id="TFG/Cliente#calcularDistancias()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Cliente" id="TFG/Cliente#Cliente()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fitness" id="TFG/Cliente#fitness([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDomains" id="TFG/Cliente#getDomains()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generateSolution" id="TFG/Cliente#generateSolution([Lorg.jacop.core.IntDomain;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tabuSearch" id="TFG/Cliente#tabuSearch(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printSolution" id="TFG/Cliente#printSolution([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="costAllDifferent" id="TFG/Cliente#costAllDifferent([I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

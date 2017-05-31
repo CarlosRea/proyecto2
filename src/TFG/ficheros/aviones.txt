@@ -1,0 +1,61 @@
+﻿Airbus A380-800
+Asientos : 853
+
+Airbus A330-200
+Asientos : 293
+
+Airbus A330-300
+Asientos : 335
+
+Airbus A340-200
+Asientos: 300 
+
+Airbus A340-300
+Asientos: 440
+
+Airbus A340-500
+Asientos : 359 
+
+
+Airbus A340-600
+Asientos : 419 
+
+Boeing 737-700
+Asientos : 149 
+
+Boing 747-400
+Asientos : 524
+
+Boing 747-8 Intercontinental
+Asientos: 464
+
+
+Boeing 757-200
+Asientos : 182 
+
+Boeing 767-200
+Asientos : 255 
+
+Boeing 767-300ER
+Asientos : 351 
+
+Boeing 777-200ER 
+Asientos: 440 
+
+Boing 777-300
+Asientos: 550
+
+
+Airbus A319 
+Asientos: 134 
+
+Boeing 737-300
+Asientos: 136 
+
+
+Airbus A340-600
+Asientos : 34 
+
+
+Airbus A340-600
+Asientos: 33 

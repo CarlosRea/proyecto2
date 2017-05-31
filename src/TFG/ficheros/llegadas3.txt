@@ -1,0 +1,223 @@
+
+VY 7827
+Vueling
+6:25 PM
+Aterrizo 
+ Delayed
+IB 5551 ^
+Iberia
+6:25 PM
+Aterrizo 
+ Delayed
+FR 6304
+Ryanair
+6:03 PM
+Aterrizo 
+ A tiempo
+NI 1032
+Portugalia Airlines
+5:50 PM
+En Ruta 
+TP 1032 ^
+TAP Portugal
+5:50 PM
+En Ruta 
+S4 8732 ^
+SATA Internacional
+5:50 PM
+En Ruta 
+VY 3913
+Vueling
+6:24 PM
+Aterrizo 
+ Delayed
+IB 5741 ^
+Iberia
+6:24 PM
+Aterrizo 
+ Delayed
+VY 6405
+Vueling
+6:10 PM
+Aterrizo 
+ A tiempo
+IB 5833 ^
+Iberia
+6:10 PM
+Aterrizo 
+ A tiempo
+AT 960
+Royal Air Maroc
+6:06 PM
+Aterrizo 
+ A tiempo
+IB 7708 ^
+Iberia
+6:06 PM
+Aterrizo 
+ A tiempo
+VY 1028
+Vueling
+6:33 PM
+Aterrizo 
+ Delayed
+IB 2732
+Iberia
+6:22 PM
+Aterrizo 
+ A tiempo
+LA 5704 ^
+LAN Airlines
+6:22 PM
+Aterrizo 
+ A tiempo
+AV 6148 ^
+AVIANCA
+6:22 PM
+Aterrizo 
+ A tiempo
+VY 1815
+Vueling
+6:27 PM
+Aterrizo 
+ A tiempo
+IB 5715 ^
+Iberia
+6:27 PM
+Aterrizo 
+ A tiempo
+VY 1313
+Vueling
+6:16 PM
+Aterrizo 
+ A tiempo
+IB 5458 ^
+Iberia
+6:16 PM
+Aterrizo 
+ A tiempo
+VY 1883
+Vueling
+6:44 PM
+Aterrizo 
+ A tiempo
+IB 5379 ^
+Iberia
+6:44 PM
+Aterrizo 
+ A tiempo
+BA 480
+British Airways
+6:55 PM
+Aterrizo 
+ Delayed
+IB 7453 ^
+Iberia
+6:55 PM
+Aterrizo 
+ Delayed
+AA 6292 ^
+American Airlines
+6:55 PM
+Aterrizo 
+ Delayed
+AF 1048
+Air France
+6:32 PM
+Aterrizo 
+ A tiempo
+CZ 7059 ^
+China Southern Airlines
+6:32 PM
+Aterrizo 
+ A tiempo
+UX 3048 ^
+Air Europa
+6:32 PM
+Aterrizo 
+ A tiempo
+SU 3100 ^
+Aeroflot
+6:32 PM
+Aterrizo 
+ A tiempo
+FR 6321
+Ryanair
+6:34 PM
+Aterrizo 
+ A tiempo
+U2 8577
+easyJet
+7:06 PM
+Aterrizo 
+ Delayed
+KL 1675
+KLM
+6:48 PM
+Aterrizo 
+ A tiempo
+KQ 1675 ^
+Kenya Airways
+6:48 PM
+Aterrizo 
+ A tiempo
+DL 9604 ^
+Delta Air Lines
+6:48 PM
+Aterrizo 
+ A tiempo
+EY 7355 ^
+Etihad Airways
+6:48 PM
+Aterrizo 
+ A tiempo
+VY 8019
+Vueling
+7:10 PM
+Aterrizo 
+ A tiempo
+IB 5755 ^
+Iberia
+7:10 PM
+Aterrizo 
+ A tiempo
+VY 8527
+Vueling
+7:15 PM
+Aterrizo 
+ Delayed
+IB 5798 ^
+Iberia
+7:15 PM
+Aterrizo 
+ Delayed
+VY 2702
+Vueling
+6:53 PM
+Aterrizo 
+ A tiempo
+IB 5923 ^
+Iberia
+6:53 PM
+Aterrizo 
+ A tiempo
+AH 2014
+Air Algerie
+6:59 PM
+Aterrizo 
+ A tiempo
+4U 9528
+Germanwings
+7:03 PM
+Aterrizo 
+ A tiempo
+LH 5072 ^
+Lufthansa
+7:03 PM
+Aterrizo 
+ A tiempo
+VY 6335
+Vueling
+7:05 PM
+Aterrizo 
+ A tiempo

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="782,690" id="tabuSearch" metadata="uml2-1.0" initialized="true" scrolledY="31" tag="10" key="32303037303533312D313020544647">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="Tools" location="645,375" size="90,68" id="tabuSearch/Tools" runTimeClassModel="fitness([I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="67,18">
+      <children xsi:type="editmodel:MethodEditModel" name="fitness" id="tabuSearch/Tools#fitness([I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2" name="BestCandidate" location="525,80" size="152,266" id="tabuSearch/BestCandidate" runTimeClassModel="getSolution(),setCost(I),setSolution([I),BestCandidate(LtabuSearch.Move;[II),getMove(),setMove(LtabuSearch.Move;),getCost(),solution,cost,BestCandidate(),move,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="cost" id="tabuSearch/BestCandidate#cost"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="move" id="tabuSearch/BestCandidate#move"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="solution" id="tabuSearch/BestCandidate#solution"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,162">
+      <children xsi:type="editmodel:MethodEditModel" name="BestCandidate" id="tabuSearch/BestCandidate#BestCandidate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BestCandidate" id="tabuSearch/BestCandidate#BestCandidate(LtabuSearch.Move;[II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCost" id="tabuSearch/BestCandidate#getCost()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMove" id="tabuSearch/BestCandidate#getMove()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSolution" id="tabuSearch/BestCandidate#getSolution()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCost" id="tabuSearch/BestCandidate#setCost(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMove" id="tabuSearch/BestCandidate#setMove(LtabuSearch.Move;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSolution" id="tabuSearch/BestCandidate#setSolution([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="tabuSearch/BestCandidate#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tabuSearch/BestCandidate->tabuSearch/Move*tabuSearch/BestCandidate-Soyatec::Import->tabuSearch/Move" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,133" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,106"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.4/@sourceConnections.3 //@children.3/@sourceConnections.0" name="Move" location="180,107" size="116,212" id="tabuSearch/Move" runTimeClassModel="getValue(),value,equals(Ljava.lang.Object;),getVariable(),setValue(I),Move(II),setVariable(I),variable,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="tabuSearch/Move#value"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="variable" id="tabuSearch/Move#variable"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Move" id="tabuSearch/Move#Move(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="tabuSearch/Move#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="tabuSearch/Move#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVariable" id="tabuSearch/Move#getVariable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="tabuSearch/Move#setValue(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVariable" id="tabuSearch/Move#setVariable(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="tabuSearch/Move#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="TabuList" location="45,345" size="146,158" id="tabuSearch/TabuList" runTimeClassModel="getMaxSize(),setMaxSize(I),TabuList(I),addTabuElement(LtabuSearch.Move;),isTabuElem(LtabuSearch.Move;),maxSize">
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="maxSize" id="tabuSearch/TabuList#maxSize"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,90">
+      <children xsi:type="editmodel:MethodEditModel" name="TabuList" id="tabuSearch/TabuList#TabuList(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addTabuElement" id="tabuSearch/TabuList#addTabuElement(LtabuSearch.Move;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxSize" id="tabuSearch/TabuList#getMaxSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isTabuElem" id="tabuSearch/TabuList#isTabuElem(LtabuSearch.Move;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaxSize" id="tabuSearch/TabuList#setMaxSize(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tabuSearch/TabuList-Soyatec::Import->tabuSearch/Move" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,208"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NeighborHood" location="330,360" size="185,122" id="tabuSearch/NeighborHood" runTimeClassModel="reduceNeighborHood(LtabuSearch.TabuList;),determineNeighboor(),getBestPossibleSolution(),NeighborHood([I[Lorg.jacop.core.IntDomain;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,72">
+      <children xsi:type="editmodel:MethodEditModel" name="NeighborHood" id="tabuSearch/NeighborHood#NeighborHood([I[Lorg.jacop.core.IntDomain;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="determineNeighboor" id="tabuSearch/NeighborHood#determineNeighboor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBestPossibleSolution" id="tabuSearch/NeighborHood#getBestPossibleSolution()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reduceNeighborHood" id="tabuSearch/NeighborHood#reduceNeighborHood(LtabuSearch.TabuList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tabuSearch/NeighborHood->tabuSearch/TabuList*tabuSearch/NeighborHood-Soyatec::Import->tabuSearch/TabuList" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,61" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,76"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tabuSearch/NeighborHood->tabuSearch/Tools" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,49" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,34"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tabuSearch/NeighborHood->tabuSearch/BestCandidate*tabuSearch/NeighborHood->tabuSearch/BestCandidate*tabuSearch/NeighborHood-Soyatec::Import->tabuSearch/BestCandidate" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,221"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tabuSearch/NeighborHood->tabuSearch/Move*tabuSearch/NeighborHood->tabuSearch/Move*tabuSearch/NeighborHood-Soyatec::Import->tabuSearch/Move" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,172"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=5;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
